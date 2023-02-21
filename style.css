@@ -2,6 +2,11 @@
     --gridNumber:0;
 }
 
+body{
+    display:flex;
+    justify-content: center;
+}
+
 #gridContainer{
     display:grid;
     width: 960px;
