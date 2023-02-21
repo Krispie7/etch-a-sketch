@@ -1,0 +1,20 @@
+:root{
+    --gridNumber:0;
+}
+
+#gridContainer{
+    display:grid;
+    width: 960px;
+    height: 960px;
+    grid-template-columns: repeat(var(--gridNumber), auto);
+}
+
+.gridItem{
+    display:flex;
+    width: 960/var(--gridNumber);
+    height: 960/var(--gridNumber);
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
